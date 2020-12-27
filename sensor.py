@@ -59,7 +59,7 @@ async def async_setup_platform(hass, config, async_add_entities, discovery_info=
                     ThreePhaseFerroampSensor("Grid Power", "pext", POWER_WATT, "mdi:transmission-tower"),
                     ThreePhaseFerroampSensor("Grid Power Reactive", "pextreactive", POWER_WATT, "mdi:transmission-tower"),
                     ThreePhaseFerroampSensor("Inverter Power, active", "pinv", POWER_WATT, "mdi:solar-power"),
-                    ThreePhaseFerroampSensor("Interter Power, reactive", "pinvreactive", POWER_WATT, "mdi:solar-power"),
+                    ThreePhaseFerroampSensor("Inverter Power, reactive", "pinvreactive", POWER_WATT, "mdi:solar-power"),
 
                     ThreePhaseFerroampSensor("Consumtion Power", "pload", POWER_WATT, "mdi:power-plug"),
                     ThreePhaseFerroampSensor("Consumtion Power Reactive", "ploadreactive", POWER_WATT, "mdi:power-plug"),
