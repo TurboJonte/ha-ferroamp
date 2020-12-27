@@ -55,6 +55,7 @@ async def async_setup_platform(hass, config, async_add_entities, discovery_info=
                     ThreePhaseFerroampSensor("Grid Current", "iext", ELECTRICAL_CURRENT_AMPERE, "mdi:current-ac"),
                     ThreePhaseFerroampSensor("Grid Reactive Current", "iextd", ELECTRICAL_CURRENT_AMPERE, "mdi:current-ac"),
                     ThreePhaseFerroampSensor("External Active Current", "iextq", ELECTRICAL_CURRENT_AMPERE, "mdi:current-ac"),
+                    ThreePhaseFerroampSensor("Adaptive Current Equalization", "iace", ELECTRICAL_CURRENT_AMPERE, "mdi:current-ac"),
 
                     ThreePhaseFerroampSensor("Grid Power", "pext", POWER_WATT, "mdi:transmission-tower"),
                     ThreePhaseFerroampSensor("Grid Power Reactive", "pextreactive", POWER_WATT, "mdi:transmission-tower"),
